@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins";
+  }
+
+  html body{
+    background: rgb(224, 221, 221);
+  }
+  a{
+    text-decoration: none;
+}
+.views{
+  margin-top: 60px;
+}

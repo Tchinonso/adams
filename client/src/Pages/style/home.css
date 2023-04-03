@@ -1,0 +1,468 @@
+.home{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.home-container{
+    display: block;
+}
+.home-top-content img{
+    width: 100%;
+}
+.home-top-content-container{
+ width: 60%;
+ position: absolute;
+ top: 250px;
+ padding: 40px;
+ font-weight: bold;
+ color: white;
+ z-index: 1;
+}
+.home-top-content-container h2{
+    font-size: 40px;
+}
+.home-top-content-container h1{
+    font-size: 40px;
+}
+.home-top-content-container h4{
+    font-size: 16px;
+    padding: 30px 0px;
+}
+.home-top-content-container button{
+    padding: 14px 200px;
+    margin: 40px 0px;
+    cursor: pointer;
+    border-radius: 12px;
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+}
+.home-top-content-container button:hover{
+  background: #f3dbdb;
+}
+.home-container .descriptopn{
+    padding: 0;
+    margin: 0;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-container .descriptopn-container{
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+.home-container .descriptopn-container .header{
+    font-size: 28px;
+    padding: 20px;
+    color: rgb(168, 7, 7);
+}
+
+.home-container .descriptopn-container button{
+    background:  rgb(168, 7, 7);
+    border: none;
+    padding: 10px 200px;
+    color: white;
+    font-weight: bold;
+    margin: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.home-container .descriptopn-container button:hover{
+    background:  rgb(219, 75, 75);
+}
+.Related{
+    width: 100%;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.233);
+}
+.Related-container{
+    padding: 10px;
+}
+.Related-container .header{
+    padding: 5px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.Related .related-images{
+    display: flex;
+    gap: 20px;
+}
+.Related .related-images .contents{
+    width: 100%;
+}
+.Related .related-images img{
+    width: 100%;
+    height: 300px;
+}
+.footer{
+    padding: 0px ;
+    margin: 0px;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 500;
+
+}
+.Logins .signup{
+    font-size: 17px;
+    height: 25px;
+}
+
+@media only screen and ( min-width : 1000px ) and ( max-width : 1100px ) {
+    .home-top-content-container{
+        width: 60%;
+        position: absolute;
+        top: 150px;
+        padding: 37px;
+        font-weight: bold;
+        color: white;
+        z-index: 1;
+       }
+     
+}
+
+@media only screen and ( min-width : 900px ) and ( max-width : 1000px ) {
+    .home-top-content-container{
+        width: 60%;
+        position: absolute;
+        top: 80px;
+        padding: 28px;
+        font-weight: bold;
+        color: white;
+        z-index: 1;
+        margin: 0;
+        margin-top: 30px;
+    }
+    .home-container .descriptopn-container button{
+        background:  rgb(168, 7, 7);
+        border: none;
+        padding: 10px 100px;
+        color: white;
+        font-weight: bold;
+        margin: 30px;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+    .Logins .signup{
+        font-size: 15px;
+    }
+}
+
+/* @media only screen and ( min-width : 760px ) and ( max-width : 900px ) {
+    .home-top-content-container{
+        width: 50%;
+        position: absolute;
+        top: 100px;
+        padding: 15px;
+        font-weight: bold;
+        color: white;
+        z-index: 1;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .home-top-content-container h2{
+        font-size: 26px;
+    }
+    .home-top-content-container button{
+        padding: 14px 100px;
+        margin: 40px 0px;
+        cursor: pointer;
+        border-radius: 12px;
+        border: none;
+        color: black;
+        font-weight: bold;
+        font-size: 13px;
+    }
+    .Logins .signup{
+        font-size: 13px;
+    }
+  
+} */
+
+@media only screen and ( min-width : 760px ) and ( max-width : 900px ) {
+    .home-top-content-container{
+        width: 60%;
+        position: absolute;
+        top: 100px;
+        padding: 15px;
+        font-weight: bold;
+        color: white;
+        z-index: 1;
+        margin: 0;
+        margin-bottom: 18px;
+       
+    }
+    .home-top-content-container h4{
+        font-size: 12px;
+    }
+    .home-top-content-container h2{
+        font-size: 26px;
+    }
+    .home-top-content-container button{
+        padding: 14px 100px;
+        margin: 40px 0px;
+        cursor: pointer;
+        border-radius: 12px;
+        border: none;
+        color: black;
+        font-weight: bold;
+        font-size: 13px;
+    }
+    .Related .related-images{
+        display: flex;
+        gap: 10px;
+        overflow-x: scroll;
+    }
+    .Logins .signup{
+        font-size: 12px;
+    }
+    .Logins .loginEl{
+        font-size: 10px;
+    }
+}
+
+@media only screen and ( min-width : 650px ) and ( max-width : 760px ) {
+    .home-top-content-container{
+        width: %;
+        position: absolute;
+        top: 450px;
+        padding: 15px;
+        font-weight: bold;
+        color: white;
+        z-index: 1;
+        background-color: rgb(168, 7, 7);
+    }
+    .home-top-content-container h2{
+        font-size: 20px;
+    }
+    .home-top-content-container button{
+        padding: 14px 100px;
+        margin: 40px 0px;
+        cursor: pointer;
+        border-radius: 12px;
+        border: none;
+        color: black;
+        font-weight: bold;
+        font-size: 13px;
+    }
+    .Related .related-images{
+        display: flex;
+        gap: 10px;
+        overflow-x: scroll;
+    }
+    .Logins .signup{
+        font-size: 13px;
+    }
+    .Logins .loginEl{
+        font-size: 25px;
+    }
+    .fuuter{
+        margin: 0;
+        margin-top: 26.9rem;
+    }
+}
+
+@media only screen and ( min-width : 550px ) and ( max-width : 650px ) {
+    .home-top-content-container{
+        width: 50%;
+        position: absolute;
+        top: 300px;
+        padding: 15px;
+        font-weight: bold;
+        color: white;
+        z-index: 1;
+        margin: 0;
+    }
+    .home-top-content-container h2{
+        font-size: 20px;
+    }
+    .home-top-content-container button{
+        padding: 14px 100px;
+        margin: 40px 0px;
+        cursor: pointer;
+        border-radius: 12px;
+        border: none;
+        color: black;
+        font-weight: bold;
+        font-size: 13px;
+    }
+    .Related .related-images{
+        display: flex;
+        gap: 10px;
+        overflow-x: scroll;
+    }
+    .Related .related-images img{
+        width: 100%;
+        height: 200px;
+    }
+    .Related .related-images{
+        display: flex;
+        gap: 10px;
+    }
+    .home-container .descriptopn-container button{
+        background:  rgb(168, 7, 7);
+        border: none;
+        padding: 10px 100px;
+        color: white;
+        font-weight: bold;
+        margin: 30px;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+    .Logins .signup{
+        font-size: 12px;
+    }
+    .Logins .loginEl{
+        font-size: 14px;
+    }
+    .fuuter{
+        margin: 0;
+        margin-top: 29.9rem;
+    }
+}
+
+@media only screen and ( min-width : 380px ) and ( max-width : 550px )  {
+    .home-top-content-container{
+        width: 50%;
+        position: absolute;
+        top: 100px;
+        padding: 15px;
+        font-weight: bold;
+        color: white;
+        z-index: 1;
+        margin: 0;
+    }
+    .home-top-content-container h2{
+        font-size: 14px;
+    }
+    .home-top-content-container button{
+        padding: 7px 30px;
+        margin: 20px 0px;
+        cursor: pointer;
+        border-radius: 7px;
+        border: none;
+        color: black;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .Related .related-images{
+        display: flex;
+        gap: 0px;
+        overflow-x: scroll;
+    }
+    .Related .related-images img{
+        width: 100%;
+        height: 120px;
+    }
+    .Related .related-images{
+        display: flex;
+        gap: 10px;
+    }
+    .home-container .descriptopn-container button{
+        background:  rgb(168, 7, 7);
+        border: none;
+        padding: 10px 100px;
+        color: white;
+        font-weight: bold;
+        margin: 30px;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+    .home-container .descriptopn-container .header{
+        font-size: 15px;
+        padding: 20px;
+        color: rgb(168, 7, 7);
+    }
+    .home-top-content-container h4{
+        font-size: 12px;
+        padding: 30px 0px;
+    }
+    .Logins .signup{
+        font-size: 10px;
+    }
+    .Logins .loginEl{
+        font-size: 14px;
+    }
+    .fuuter{
+        margin: 0;
+        margin-top: 23.1rem;
+    }
+    
+}
+
+@media only screen and ( max-width : 380px ) {
+    .home-top-content-container{
+        width: 50%;
+        position: absolute;
+        top: 100px;
+        padding: 15px;
+        font-weight: bold;
+        color: white;
+        z-index: 1;
+        margin: 0;
+    }
+    .home-top-content-container h2{
+        font-size: 13px;
+    }
+    .home-top-content-container button{
+        padding: 6px 20px;
+        margin: 10px 0px;
+        cursor: pointer;
+        border-radius: 7px;
+        border: none;
+        color: black;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .Related .related-images{
+        display: flex;
+        gap: 0px;
+        overflow-x: scroll;
+    }
+    .Related .related-images img{
+        width: 100%;
+        height: 100px;
+    }
+    .Related .related-images{
+        display: flex;
+        gap: 10px;
+    }
+    .home-container .descriptopn-container button{
+        background:  rgb(168, 7, 7);
+        border: none;
+        padding: 10px 50px;
+        color: white;
+        font-weight: bold;
+        margin: 30px;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+    .home-container .descriptopn-container .header{
+        font-size: 15px;
+        padding: 20px;
+        color: rgb(168, 7, 7);
+    }
+    .home-top-content-container h4{
+        font-size: 12px;
+        padding: 30px 0px;
+    }
+    .Logins .signup{
+        font-size: 8px;
+    }
+    .Logins .loginEl{
+        font-size: 14px;
+    }
+    .fuuter{
+        margin: 0;
+        margin-top: 20.8rem;
+    }
+}

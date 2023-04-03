@@ -1,0 +1,105 @@
+.single-product{
+    background: rgba(0, 0, 0, 0.795);
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.single-product-container{
+    width: 35%;
+    background: #fff;
+    border-radius: 12px;
+    overflow-y: scroll;
+    position: relative;
+}
+
+.single-product-container::-webkit-scrollbar{
+    display: none;
+}
+
+
+.product-img-container{
+    display: flex;
+    width: 360;
+    height: 360px;
+    justify-content: center;
+    align-items: center;
+}
+.single-product-container .product-img {
+   width: 250px;
+   height: 250px;
+}
+.single-product-container .product-img img{
+    width: 100%;
+    border-radius: 20%;
+
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.24);
+ }
+ .product-header-dec{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+ }
+ .product-header-dec .name{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+ }
+ .product-header-dec .price{
+    width: 100%;
+    text-align: center;
+    color: rgb(177, 10, 10);
+ }
+ .product-decription{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.185);
+   
+ }
+ .product-decription-content{
+    padding: 20px;
+ }
+ .product-decription-content h4{
+    padding: 20px;
+ }
+ .cart{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .cart .submit{
+    margin: 10px;
+    padding: 10px;
+ }
+ .cart .submit button{
+    padding: 6px 60px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(81.5deg, #DCB5B5 -11.89%, #DA6363 30.89%, #C50F0F 80.38%);
+    color: white;
+    border-radius: 6px;
+ }
+
+ .cart .submit button:hover{
+    background: linear-gradient(81.5deg, #d8c5c5 -11.89%, #be6767 30.89%, #d12828 80.38%);
+ }
+
+ .cancel-icon{
+    font-size: 25px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+ }

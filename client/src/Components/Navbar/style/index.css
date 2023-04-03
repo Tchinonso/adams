@@ -1,0 +1,237 @@
+.Navebar{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    height: 60px;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    background: #fff;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.11);
+}
+.navbar-container{
+    display: flex;width: 100%;
+    position: relative;
+
+}
+.navbar-container .logo{
+    width: 50%;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+}
+.navbar-container .logo h4{
+    padding: 7px;
+    font-size: 21px;
+    color: rgb(219, 15, 15);
+}
+.navbar-container .logo img{
+width: 40px;
+padding: 5px 10px;
+}
+.navbar-container .contents{
+ display: flex;
+ gap: 29px;
+    padding: 20px;
+}
+
+.navbar-container .contents a{
+   color: black;
+   font-size: 15px;
+   font-weight: bold;
+}
+
+.navbar-container .contents a.active{
+    color: rgb(63, 2, 2);
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 2px solid red;
+ }
+
+ .navbar-container .Logins{
+ display: flex;
+ gap: 20px;
+ margin-left: 40px;
+ }
+.navbar-details{
+    display: flex;
+    gap: 30px;
+}
+ .navbar-container .Logins{
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+}
+ 
+.navbar-container .Logins .signup a{
+    display: flex;
+    gap: 20px;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 5px;
+    background: linear-gradient(81.5deg, #DCB5B5 -11.89%, #DA6363 30.89%, #C50F0F 80.38%);
+    }
+
+    .navbar-container .Logins .signup a:hover{
+
+        color: white;
+        background: linear-gradient(81.5deg, #DCB5B5 -11.89%, #DA6363 30.89%, #C50F0F 80.38%);
+    }
+    
+
+.navbar-container .Logins .loginEl a{
+    display: flex;
+    gap: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #ff000011;
+    padding: 5px 20px;
+    color: rgb(202, 36, 36);
+
+    border: 1px solid #C50F0F;
+}
+ 
+.profile{
+    padding: 0;
+    margin: 0;
+}
+.profile-container{
+    display: flex;
+    gap: 15px;
+    padding: 5px;
+}
+.profile-container .name{
+    padding: 15px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.cart{
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(165, 6, 6);
+}
+.cart:hover{
+    color: rgb(248, 16, 16);
+}
+.logout-btn{
+    padding: 10px;
+}
+.logout-btn button{
+    padding: 6px 20px;
+    background: #C50F0F;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.menu{
+    padding: 13px;
+}
+
+.menubar{
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    height: 50%;
+    width: 50%;
+    background: rgb(54, 5, 5);
+    top: 60px;
+    right: 0;
+    z-index: 2920;
+}
+
+.menubar-container{
+    padding: 10px;
+}
+.menubar-container .contents{
+    padding: 10px;
+}
+.menubar-container .contents .home{
+    padding: 10px;
+    background: rgba(128, 128, 128, 0.342);
+    border-radius: 6px;
+    padding: 5px;
+    margin: 14px 0px;
+}
+.menubar-container .contents .home a{
+ color: #ffffff88;
+}
+.menubar-container .contents .logout-btn{
+    margin: 0;
+    padding: 20px;
+}
+.menubar-container{
+    background: rgb(54, 5, 5);
+}
+.menu{
+    display: none;
+}
+
+@media only screen and ( min-width : 900px ) and ( max-width : 1150px ) {
+    .navbar-container .logo{
+        width: 40%;
+        padding: 5px;
+        margin: 5px;
+        display: flex;
+    }
+    .navbar-container .logo h4{
+        padding: 7px;
+        font-size: 17px;
+        color: rgb(219, 15, 15);
+    }
+    .navbar-container .contents{
+        display: flex;
+        gap: 19px;
+           padding: 20px;
+       }
+       .navbar-details{
+        display: flex;
+        gap: 0px;
+    }
+}
+
+@media only screen and ( min-width : 650px )  and ( max-width : 900px ) {
+    .menubar{
+        display: block;
+    }
+    .navbar-details .contents{
+        display: none;
+    }
+    .navbar-container .logo{
+        width: 60%;
+        padding: 5px;
+        margin: 5px;
+        display: flex;
+    }
+    .menu{
+        display: block;
+    }
+}
+
+@media only screen and ( max-width : 650px ) {
+    .menubar{
+        display: block;
+    }
+    .navbar-details .contents{
+        display: none;
+    }
+    .navbar-container .logo{
+        width: 60%;
+        padding: 5px;
+        margin: 5px;
+        display: flex;
+    }
+    .navbar-container .logo h4{
+      display: none;
+    }
+    .menu{
+        display: block;
+    }
+}
+
+@media only screen and ( min-width : 900px ) {
+    .menubar{
+        display: none;
+    }
+}

@@ -1,0 +1,35 @@
+.Login{
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    width: 35%;
+    top: 66px;
+    right: 0;
+    background: #fff;
+    box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.315);
+}
+.login-container{
+    padding: 10px;
+    margin: 10px;
+}
+.login-container form input{
+    width: 90%;
+    padding: 8.5px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.61);
+    border-radius: 6px;
+    background: rgba(165, 162, 162, 0.356);
+}
+.login-container form .email{
+ margin: 20px;
+}
+.login-container form button{
+   background: rgba(206, 10, 10, 0.904);
+   border: none;
+   padding: 7px 50px;
+   margin: 30px 20px;
+   color: white;
+}
+
+
+
