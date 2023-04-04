@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/adamsonic/static/css/main.a5bf3130.css",
+    "main.js": "/adamsonic/static/js/main.e348ff6a.js",
+    "static/media/medical.jpg": "/adamsonic/static/media/medical.3be945e729703f5c0f37.jpg",
+    "static/media/hand exercise box.jpg": "/adamsonic/static/media/hand exercise box.90d11698a528fd7ecda8.jpg",
+    "static/media/Logo.png": "/adamsonic/static/media/Logo.bb9dd996aeb409c40a67.png",
+    "index.html": "/adamsonic/index.html",
+    "main.a5bf3130.css.map": "/adamsonic/static/css/main.a5bf3130.css.map",
+    "main.e348ff6a.js.map": "/adamsonic/static/js/main.e348ff6a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5bf3130.css",
+    "static/js/main.e348ff6a.js"
+  ]
+}
